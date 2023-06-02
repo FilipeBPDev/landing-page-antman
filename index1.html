@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <link rel="stylesheet" href="stylesheet/stylenew.css">
-    
+
+    <script defer src="./js/script.js"></script>
+
 
     <title>Homem-Formiga e a Vespa: Quantumania</title>
 </head>
+
 <body>
     <header>
 
         <div id="title">
             <a href="">
-                <img src="comp/img/logo.png" width="210px" height="73.1px"      target="_blank">
+                <img id="logo-marvel" src="comp/img/logo.png" width="210px" height="73.1px" target="_blank">
             </a>
-            <h1 onmouseover="stopRotate()" id="test" style="transform: rotateY(0deg);">Cine+Mais</h1>
+        
         </div>
 
         <div class="navbar">
             <ul>
-                <a href="" class="btn"><li>Início</li></a>
-                <a href="" class="btn"><li>Comprar ingresso</li></a>
-                <a href="" class="btn"><li>Contato</li></a>
-                <a href="" class="btn"><li>Ajuda</li></a>
-                <a href="https://www.ingresso.com/filme/homem-formiga-e-a-vespa-quantumania?" id="reserve-btn" class="btn" target="_blank"><li>Reserve sua cadeira</li></a>
+                <a href="" class="btn">
+                    <li>Início</li>
+                </a>
+                <a href="./pages/home.html" class="btn">
+                    <li>Trailer</li>
+                </a>
+                <a href="" class="btn">
+                    <li>Ajuda</li>
+                </a>
+                <a href="https://www.ingresso.com/filme/homem-formiga-e-a-vespa-quantumania?" id="reserve-btn"
+                    class="btn" target="_blank">
+                    <li>Reserve sua cadeira</li>
+                </a>
             </ul>
-        </div>    
+        </div>
     </header>
 
     <main>
         <aside>
             <h2>Homem-Formiga e a Vespa: </h2>
             <h2><span>Quantumania</span></h2>
-            <p aria-setsize="10px">É a sua vez de vir com Scott Lang e Hope Van Dyne explorar o Reino Quântico, conhecer criaturas novas e embarcar numa aventura que trará enormes consequências para o universo.</p>
+            <p aria-setsize="10px">É a sua vez de vir com Scott Lang e Hope Van Dyne explorar o Reino Quântico, conhecer
+                criaturas novas e embarcar numa aventura que trará enormes consequências para o universo.</p>
             <h3>Garanta já seu ingresso!</h3>
             <form>
                 <input type="text" placeholder="Nome">
@@ -44,17 +59,18 @@
             </form>
         </aside>
 
-            <article>            
-                <figure><img src="comp/img/quantum.png" alt="ant-man-quantumania"  width="700px" height="200px"></figure>
+        <article>
+            <figure><img class="quantum" src="comp/img/quantum.png" alt="ant-man-quantumania" width="700px" height="200px"></figure>
 
-            </article>
-        
+        </article>
+
 
     </main>
-    <script src="js/anim.js"></script>
+
 
     <footer>
-		<p class="logomarca">&copy; Todos os direitos reservados.</p>
-	</footer>
+        <p class="logomarca">&copy; Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>
